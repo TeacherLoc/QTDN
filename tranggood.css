@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("hinhanh/background-banner-moi-hien-dai.jpg"), url("loi");
+    background-color: #7a2d2d;
+  }
+
+  h2{
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    margin-top: 70px;
+    margin-bottom:20px;
+  }
+  
+  
+  /* Wrapper Is not Needed| Just for demo purpose.  */
+  .wrapper {
+    margin: 150px auto;
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
+  
+  .btn, .btn2, .btn3, .btn4, .btn5, .btn6, .btn7, .btn10{
+    padding: 15px 100px;
+    margin:10px 4px;
+    color: rgb(89, 79, 180);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display:inline-block;
+    
+  }
+  
+  .btn::before {
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    left: 0px;
+    width: 100%;
+    height: 1px;
+    background: #6098FF;
+    display: block;
+    -webkit-transform-origin: left top;
+    -ms-transform-origin: left top;
+    transform-origin: left top;
+    -webkit-transform: scale(0, 1);
+    -ms-transform: scale(0, 1);
+    transform: scale(0, 1);
+    -webkit-transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+    transition: transform 0.4s cubic-bezier(1, 0, 0, 1)
+  }
+  
+  .btn:hover::before {
+    -webkit-transform-origin: right top;
+    -ms-transform-origin: right top;
+    transform-origin: right top;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1)
+  }
+  
+  /*======= Button 2 =======*/
+  .btn2::before{
+    content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #000;
+  -webkit-transform: scaleY(.3);
+  transform: scaleY(.3);
+  opacity: 0;
+  transition: all .3s
+  }
+  
+  .btn2:hover{
+    color:#6098FF;  
+  }
+  .btn2:hover::before{
+    opacity: 1;
+    background-color: #fff;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    transition: -webkit-transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity .4s;
+    transition: transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity
+  }
+  ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    padding-top: 50px;
+}
+ul li{
+    border-radius: 20px;
+    border: 2px solid rgb(185, 160, 160);
+    background-color:#80ffd3;
+}
+ul >li>a:hover{
+    border-radius: 20px;
+    border: 2px solid lightblue;
+    background-color: lightblue;
+}
+ul>li>a{
+    text-decoration: none;
+    display: block;
+    min-width: 120px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+ul>:nth-child(1){
+    margin-left:13%;
+}
+ul>:nth-child(2){
+    margin-left:0;
+}
+
+ul>:nth-child(3){
+    margin-left:17%;
+}
+
+
+
+
+
+  
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    color:#7a2d2d;
+  }
+  
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  div#Back {
+    margin-left: -177px;
+
+    padding: 200px;
+  }
+  div#Back button {
+    color: black;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  div#Back button:hover{
+    cursor: pointer;
+    background-color: #80ffd3;
+  }
+
+  div#Bacsk {
+    float:right;
+    margin-right: 27px;
+    margin-top: -235px;
+  }
+  div#Bacsk button {
+    color: black;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  div#Bacsk button:hover{
+    cursor: pointer;
+    background-color: #80ffd3;
+  }

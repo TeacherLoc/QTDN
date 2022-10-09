@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("hinhanh/background-banner-moi-hien-dai.jpg"), url("loi");
+    background-color: #7a2d2d;
+  }
+  img {
+    display: block;
+    height: auto;
+  }
+
+  .laptop{
+   
+    
+        text-align: center;
+        font-size: 70px;
+        padding-top: 60px;
+        padding-left: 400px;
+}   
+div>div#move{
+        margin-top: -47px;
+}
+div.j{
+    margin-left: 30px;
+}
+.j{
+    
+    text-align: center;
+    font-size: 70px;
+    animation: doimauchu ease 2s infinite;
+   
+}
+@keyframes doimauchu {
+    from {color:black;}
+    to {color:blue;}
+}
+
+a:hover{
+    border-radius: 20px;
+    border: 2px solid lightblue;
+    background-color: lightblue;
+}
+ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    padding-left: 500px;
+    padding-bottom: 40px;
+}
+ul li{
+    border-radius: 20px;
+    border: 2px solid rgb(185, 160, 160);
+    background-color: white;
+}
+ul >li>a:hover{
+    border-radius: 20px;
+    border: 2px solid lightblue;
+    background-color: lightblue;
+}
+ul>li>a{
+    text-decoration: none;
+    display: block;
+    min-width: 120px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+div.ButtonBack
+{
+    padding: 50px;
+    max-width: 1000px;
+    margin: 10px;
+}
+div.ButtonBack button {
+    border-radius: 20px;
+    width: 130px;
+    height: 30px;
+}
+div#Bacsk {
+    float:right;
+    margin-right: 27px;
+    
+  }
+  div#Bacsk button {
+    color: black;
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  div#Bacsk button:hover{
+    cursor: pointer;
+    background-color: #80ffd3;
+  }
+

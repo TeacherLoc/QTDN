@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("hinhanh/310185327_635194074886170_5183045799519160678_n.jpg"), url("loi");
+    background-color: #7a2d2d;
+  }
+.btn2,.btn3{
+
+padding-top: 100px;
+
+}
+.btn3{
+  animation: colorBackground 2s infinite;;
+}
+@keyframes colorBackground {
+  100% {
+  color: yellow;
+  }
+  }
+div#Back {
+  margin-left: -177px;
+
+  padding: 200px;
+}
+div#Back button {
+  color: black;
+  border-radius: 20px;
+  width: 140px;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+div#Back button:hover{
+  cursor: pointer;
+  background-color: #80ffd3;
+}
+
+div#Bacsk {
+  float:right;
+  margin-right: 27px;
+  margin-top: -235px;
+}
+div#Bacsk button {
+  color: black;
+  border-radius: 20px;
+  width: 140px;
+  height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+div#Bacsk button:hover{
+  cursor: pointer;
+  background-color: #80ffd3;
+}
